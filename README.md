@@ -18,7 +18,12 @@ In the project directory, you can run:
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
+Slider and Categories
 
 ![1](https://user-images.githubusercontent.com/91959780/164040694-8b230d18-b769-4c7c-8030-2c4dc442f5c8.png)
+
+Favorites
 ![2](https://user-images.githubusercontent.com/91959780/164040720-1c120d58-a844-4108-ba65-61d03865c06c.png)
+
+Campaings and Cards
 ![3](https://user-images.githubusercontent.com/91959780/164040772-59363e1f-aa69-46d2-9089-bc66620d2a46.png)
