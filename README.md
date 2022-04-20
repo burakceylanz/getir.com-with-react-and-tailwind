@@ -6,17 +6,17 @@ This project was developed with reaction and tailwind
 ##
 Demo : https://625fc9d6fda6cb5884dcce53--kaleidoscopic-klepon-239129.netlify.app/
 
-### Used Packages
-react-flags-select
-react-slick
-Tailwind
+## Used Packages
+react-flags-select<br/>
+react-slick<br/>
+Tailwind<br/>
 react-icon
 
-#### Available Scripts
+##Available Scripts
 
 In the project directory, you can run:
 
-##### `npm run start`
+## `npm run start`
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
