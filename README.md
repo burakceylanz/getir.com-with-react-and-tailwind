@@ -3,17 +3,20 @@
 This project is a clone of getir.com Since the Getir site is a react project, the packages used are the original packages. I have listed the packages used below.
 This project was developed with reaction and tailwind
 
-## Used Packages
+##
+Demo : https://625fc9d6fda6cb5884dcce53--kaleidoscopic-klepon-239129.netlify.app/
+
+### Used Packages
 react-flags-select
 react-slick
 Tailwind
 react-icon
 
-## Available Scripts
+#### Available Scripts
 
 In the project directory, you can run:
 
-### `npm run start`
+##### `npm run start`
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
