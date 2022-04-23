@@ -32,3 +32,10 @@ nav.awssld__bullets{
 .container {
     max-width: 1200px !important;
 } }
+@media (max-width:768px){
+.awssld.awssld--organic-arrows {
+    height: 192px;
+} }
+.ReactCollapse--collapse {
+    transition: height 500ms;
+  }
