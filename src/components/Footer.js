@@ -66,7 +66,7 @@ function Footer() {
   return (
     <footer className='bg-white mt-10'>
       <div className='container mx-auto'>
-        <div className='grid grid-cols-4 pt-10'>
+        <div className='grid gap-y-6 grid-cols-1 md:grid-cols-4 lg-grid-cols-4 p-7 md:p-0 md:pt-8'>
           <section>
             <nav className='grid gap-y-4'>
             <h6 className='text-lg text-primary-brand-color'>Getir'i indirin!</h6>
