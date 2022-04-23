@@ -1,7 +1,7 @@
 # Summary
 
 This project is a clone of getir.com Since the Getir site is a react project, the packages used are the original packages. I have listed the packages used below.
-This project was developed with reaction and tailwind
+This project was developed with react and tailwind
 
 ##
 Demo : https://bit.ly/3vDNATl
