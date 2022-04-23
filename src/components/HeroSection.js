@@ -29,20 +29,22 @@ function HeroSection() {
     interval={3500}
   >
     
-      <div className='w-full h-[500px] object-cover'><img className='w-full' src="https://getir.com/_next/static/images/getir-mainpage-1-757eca6a46304def60cabce74d3f20a2.jpg" /></div>
+      <div className='w-full h-[500px] object-cover bg-cover'><img className='w-full bg-cover' src="https://getir.com/_next/static/images/getir-mainpage-1-757eca6a46304def60cabce74d3f20a2.jpg" /></div>
       <div className='w-full h-[500px] object-cover'><img className='w-full' src="https://getir.com/_next/static/images/getir-mainpage-2-7c23764275cdaf14d7b6cf15ebbdd0c1.jpg" /></div>
     </AutoplaySlider>
   );
 
   return (
-    <div className='relative h-[500px] before:bg-gradient-to-r before:from-primary-brand-color before:to-transparent before:absolute before:inset-0 before:w-full before:h-full before:z-10'>
+    <div className='relative md:h-[500px] h-auto before:bg-gradient-to-r before:from-primary-brand-color before:to-transparent before:absolute before:inset-0 before:w-full before:h-full before:z-10'>
+     <div>
      {slider}
-        <div className='container flex justify-between items-center absolute  top-0 left-1/2 -translate-x-1/2 h-full z-20'>
-          <div>
+       </div>
+        <div className='container block md:flex justify-between items-center absolute top-0 left-1/2 -translate-x-1/2 h-full z-20'>
+          <div className="hidden md:block">
           <img src="https://getir.com/_next/static/images/bimutluluk-b3a7fcb14fc9a9c09b60d7dc9b1b8fd6.svg" />
-          <h3 className='w-[400px] mt-8 text-4xl font-semibold text-white'>Dakikalar içinde kapınızda</h3>
+          <h3 className='hidden md:block w-[400px] mt-8 text-4xl font-semibold text-white'>Dakikalar içinde kapınızda</h3>
         </div>
-        <div className='w-[400px] rounded-lg bg-gray-50 p-6'>
+        <div className='w-full md:w-[400px] md:rounded-lg bg-gray-50 p-6 '>
           <h4 className='text-primary-brand-color text-center font-semibold '>Giriş yap veya kayıt ol</h4>
           <div className="flex mt-3 gap-2">
                 <ReactFlagsSelect
