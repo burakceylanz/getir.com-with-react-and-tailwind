@@ -10,7 +10,9 @@ Demo : https://getircom-react-tailwind.netlify.app/
 react-flags-select<br/>
 react-slick<br/>
 Tailwind<br/>
-react-icon
+react-icon<br/>
+window-size<br/>
+collapse<br/>
 
 ##Available Scripts
 
