@@ -2,7 +2,7 @@ import React from 'react'
 
 function MobileApp() {
   return (
-    <section className='relative flex  items-center overflow-hidden bg-primary-brand-color min-h-slider bg-hero-pattern rounded-lg z-1 mb-6 mt-12'>
+    <section className='relative flex  items-center overflow-hidden bg-primary-brand-color min-h-slider bg-hero-pattern md:rounded-lg z-1 mb-6 md:mt-12'>
       <div className='flex  flex-col items-start h-100 justify-center ml-12'>
         <h2 className='text-white font-semibold size text-2xl'>Getir'i indirin!</h2>
         <span className='font-semibold text-base text-white mt-4'>İstediğiniz ürünleri dakikalar içinde kapınıza getirelim.</span>
