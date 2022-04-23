@@ -20,7 +20,7 @@ function Categories() {
           <img className='flex justify-center' src="https://getir.com/_next/static/images/bimutluluk-b3a7fcb14fc9a9c09b60d7dc9b1b8fd6.svg" />
           <h3 className='text-brand-color font-semibold'>Kategoriler Yükleniyor...</h3>
           </div>}
-        <div className='grid grid-cols-10'>
+        <div className='grid grid-cols-4 md:grid-cols-6 lg:grid-cols-8 xl:grid-cols-10 2xl:grid-cols-10'>
           {categories && categories.map((category,index)=><Category key={index} category={category}/>)}
         </div>
 
