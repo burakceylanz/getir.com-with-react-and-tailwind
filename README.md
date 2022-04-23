@@ -4,7 +4,7 @@ This project is a clone of getir.com Since the Getir site is a react project, th
 This project was developed with reaction and tailwind
 
 ##
-Demo : https://getircom-react-tailwind.netlify.app/
+Demo : https://bit.ly/3vDNATl
 
 ## Used Packages
 react-flags-select<br/>
