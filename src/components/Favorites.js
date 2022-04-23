@@ -13,7 +13,7 @@ function Favorites() {
   return (
     <div className='pt-12'>
     <Title>Favoriler</Title>
-    <div className='grid grid-cols-8 gap-0.1 rounded-lg overflow-hidden '>
+    <div className='grid grid-cols-3 md:grid-cols-3 lg:grid-cols-5 xl:grid-cols-8 2xl:grid-cols-8 gap-0.1 rounded-lg overflow-hidden '>
     {favorite.length && favorite.map((product,index)=><ProductItem key={index} product={product} />)}
     </div>
     </div>
